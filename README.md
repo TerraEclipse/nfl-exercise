@@ -98,25 +98,25 @@ Heres what the app needs to do:
   players or listing teams.
 - `/teams` - This page should list all the teams.
   - The teams should be visually organized by Conferenece and Division.
-  - Clicking a team name should send you to `/teams/[team key]`
+  - Clicking a team name (that has players) should send you to `/teams/[team key]`
+      - *Note: Only ARI, ATL, BAL, and BUF have players in the sample data.
 - `/teams/[team key]` - This page should display the team's info and list all
-  the players on the team.
+  the **active** players on the team.
 - `/players` - This page should list all players.
-  - Clicking a position should send you to `/players/[position]`
-- `/players/[position]` - This page should list all the players at a given
-  position.
+  - Clicking a player name should send you to `/players/[player id]`
+- `/players/[player id]` - This page should display a player's profile.
 
 **Rules**
 
 - Keep front-end JavaScript to a minimum. A little pizzazz here or there is
   perfectly fine, but the intention of this exercise is to keep the logic
-  to Node.js.
+  on the server side.
 - The only command neccesary to run the app should be `node app/server.js`. This
   main file should do any setup required and start an http server on port `3000`.
 
 ## Step 4 - Push All The Things!
 
-Your fork of this repository is where we'll evaluate your solution. We'd prefer
+Your fork of this repository is where we'll evaluate the solution. We'd prefer
 if you make frequent commits and push often. This will demonstrate comfort with
 a 'git-centric' workflow and give us a unique opportunity to see how you
 approached the problem.
@@ -156,9 +156,12 @@ Here are a couple quick tips:
 Sample UI
 ---------
 
-This isn't a test of your design skills, so keep the UI simple. Here is some
-sample screenshots to give some direction. Feel free to replicate this as
+This isn't a test of your design skills, so keep the UI simple. Here are some
+sample screenshots to provide some direction. Feel free to replicate these as
 closely as you want, or go crazy and come up with something on your own.
+
+The Sample was built with with [Bootstrap](http://getbootstrap.com/) and a
+minimal amount of custom CSS.
 
 ### Home
 ![Home](https://raw.github.com/cpsubrian/nfl-exercise/master/screens/screen-home.png)
