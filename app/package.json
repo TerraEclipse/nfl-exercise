@@ -4,9 +4,5 @@
   "private": true,
   "description": "A Node.js exercise based on 2012 NFL data.",
   "main": "server.js",
-  "dependencies": {
-    "middler": "~0.7.1",
-    "buffet": "~0.6.0",
-    "templ": "~0.1.5"
-  }
+  "dependencies": {}
 }
