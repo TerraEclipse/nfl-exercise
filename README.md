@@ -156,7 +156,19 @@ Here are a couple quick tips:
 Sample UI
 ---------
 
+This isn't a test of your design skills, so keep the UI simple. Here is some
+sample screenshots to give some direction. Feel free to replicate this as
+closely as you want, or go crazy and come up with something on your own.
 
+![Home]()
+
+![Teams]()
+
+![Team]()
+
+![Player]()
+
+![Players]()
 
 
 - - -
