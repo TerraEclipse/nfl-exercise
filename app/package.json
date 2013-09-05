@@ -1,0 +1,8 @@
+{
+  "name": "nfl-exercise",
+  "version": "0.0.1",
+  "private": true,
+  "description": "A Node.js exercise based on 2012 NFL data.",
+  "main": "server.js",
+  "dependencies": {}
+}
