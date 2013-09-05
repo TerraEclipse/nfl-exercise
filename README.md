@@ -160,14 +160,23 @@ This isn't a test of your design skills, so keep the UI simple. Here is some
 sample screenshots to give some direction. Feel free to replicate this as
 closely as you want, or go crazy and come up with something on your own.
 
+### Home
 ![Home](https://raw.github.com/cpsubrian/nfl-exercise/master/screens/screen-home.png)
 
+- - -
+### Teams
 ![Teams](https://raw.github.com/cpsubrian/nfl-exercise/master/screens/screen-teams.png)
 
+- - -
+### Team
 ![Team](https://raw.github.com/cpsubrian/nfl-exercise/master/screens/screen-team.png)
 
+- - -
+### Player
 ![Player](https://raw.github.com/cpsubrian/nfl-exercise/master/screens/screen-player.png)
 
+- - -
+### All Players
 ![Players](https://raw.github.com/cpsubrian/nfl-exercise/master/screens/screen-players.png)
 
 
