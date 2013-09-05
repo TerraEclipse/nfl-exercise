@@ -1,3 +1,9 @@
+<div class="row">
+  <div class="col-md-12">
+    <h1>Teams</h1>
+  </div>
+</div>
+
 {{#conferences}}
   <div class="conference row">
     <div class="col-md-12">
@@ -8,7 +14,9 @@
         <h4>{{name}}</h4>
         {{#teams}}
           <div class="teams">
-            <a href="/teams/{{Key}}">{{City}} {{Name}}</a>
+            {{#if hasPlayers}}<a href="/teams/{{Key}}">{{/if}}
+            {{City}} {{Name}}
+            {{#if hasPlayers}}</a>{{/if}}
           </div>
         {{/teams}}
       </div>

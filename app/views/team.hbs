@@ -1,0 +1,26 @@
+<div class="row">
+  <div class="col-md-12">
+    <h1>Team: {{team.City}} {{team.Name}}</h1>
+    <p class="lead">
+      {{team.Conference}} {{team.Division}}
+    </p>
+  </div>
+
+  <section class="grid-section clearfix">
+    <div class="col-md-12">
+      <h2>Offense</h2>
+    </div>
+    {{#players.OFF}}
+      {{> player-grid-item}}
+    {{/players.OFF}}
+  </section>
+
+  <section class="grid-section clearfix">
+    <div class="col-md-12">
+      <h2>Defense</h2>
+    </div>
+    {{#players.DEF}}
+      {{> player-grid-item}}
+    {{/players.DEF}}
+  </section>
+</div>

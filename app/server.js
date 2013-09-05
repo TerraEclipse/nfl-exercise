@@ -31,8 +31,23 @@ router.get('/teams', function (req, res, next) {
   res.render('teams');
 });
 
+router.get('/teams/:key', function (req, res, next) {
+  res.vars.team = data.teamsByKey[req.params.key];
+  res.vars.players = data.getTeamPlayers(req.params.key);
+  res.render('team');
+});
+
 router.get('/players', function (req, res, next) {
+  res.vars.players = data.getPlayers();
   res.render('players');
+});
+
+router.get('/players/:id', function (req, res, next) {
+  var player = data.playersById[req.params.id];
+  Object.keys(player).forEach(function (key) {
+    res.vars[key] = player[key];
+  });
+  res.render('player');
 });
 
 server.listen(3000, function () {
