@@ -114,6 +114,17 @@ Heres what the app needs to do:
 - The only command neccesary to run the app should be `node app/server.js`. This
   main file should do any setup required and start an http server on port `3000`.
 
+## Step 4 - Push All The Things!
+
+Your fork of this repository is where we'll evaluate your solution. We'd prefer
+if you make frequent commits and push often. This will demonstrate comfort with
+a 'git-centric' workflow and give us a unique opportunity to see how you
+approached the problem.
+
+You're not required to send us a link to your fork until you're finished, but
+feel free to send it to us earlier if you feel comfortable with us taking a
+sneak-peak.
+
 
 Sample UI
 ---------
