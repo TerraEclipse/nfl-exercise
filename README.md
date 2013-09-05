@@ -125,6 +125,33 @@ You're not required to send us a link to your fork until you're finished, but
 feel free to send it to us earlier if you feel comfortable with us taking a
 sneak-peak.
 
+Tips
+----
+
+Here are a couple quick tips:
+
+- **Keep it simple.** It's possible to build this app with a petty minimal amount
+  of code. Don't try to get too fancy by using databases, search libraries,
+  or other fancy traps. `Array.prototype.sort()` and `Array.prototype.filter()`
+  will take you a long way.
+- **Keep it organized.** Though there shouldn't be *tons* of code, the more
+  organized your solution the easier it will be to evaluate.  At the same time,
+  you probably don't need 10 folders with 20 files :)
+- **Keep the dependencies to a minimum.** NPM is a super-powerful source of
+  awesome community-contributed Node.js modules, and we absolutely encourage
+  you to take advantage of it. However, you shouldn't need to load dozens of
+  modules to satisify the simple requirements of this exercise.
+- Some modules that you might consider using:
+  - [Express](https://npmjs.org/package/express) - An all-in-one web development
+    framework. Its the de-factor starting point for most new node users.
+  - As an alternative, you might consider checking out some (TerraEclipse developed)
+    modules that can combine to power your web stack.
+      - [Middler](https://npmjs.org/package/middler) - A 'middleware' stack (think router).
+      - [Buffet](https://npmjs.org/package/buffet) - A static file server.
+      - [Templ](https://npmjs.org/package/templ) - A templating/views module.
+- Node can load `json` files easily with `require()` (no need for a third-party
+  library).
+
 
 Sample UI
 ---------
