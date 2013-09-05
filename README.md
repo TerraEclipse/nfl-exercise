@@ -94,17 +94,22 @@ Heres what the app needs to do:
 
 **Requirements**
 
-- `/` - The home page of the app should allow the user to select between listing
-  players or listing teams.
-- `/teams` - This page should list all the teams.
+- `/`
+  - The home page of the app should allow the user to select between listing
+    players or listing teams.
+- `/teams`
+  - This page should list all the teams.
   - The teams should be visually organized by Conferenece and Division.
   - Clicking a team name (that has players) should send you to `/teams/[team key]`
-      - *Note: Only ARI, ATL, BAL, and BUF have players in the sample data.
-- `/teams/[team key]` - This page should display the team's info and list all
-  the **active** players on the team.
-- `/players` - This page should list all players.
+      - *Note: Only ARI, ATL, BAL, and BUF have players in the sample data.*
+- `/teams/[team key]`
+  - This page should display the team's info and list all
+    the **active** players on the team.
+- `/players`
+  - This page should list all **active** players.
   - Clicking a player name should send you to `/players/[player id]`
-- `/players/[player id]` - This page should display a player's profile.
+- `/players/[player id]`
+  - This page should display a player's profile.
 
 **Deliverable**
 
