@@ -17,6 +17,17 @@ router.get('/', function (req, res, next) {
 });
 
 router.get('/teams', function (req, res, next) {
+  res.vars.conferences = data.conferences.map(function (conference) {
+    return {
+      name: conference,
+      divisions: data.divisions.map(function (division) {
+        return {
+          name: division,
+          teams: data.getDivisionTeams(conference, division)
+        };
+      })
+    };
+  });
   res.render('teams');
 });
 
